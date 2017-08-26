@@ -1,0 +1,124 @@
+.div-title{
+	width: 100%;
+    text-align: center;
+}
+
+.p-title{
+	font-size: 39px;
+    font-weight: bold;
+    color: #708090;
+    font-family: fantasy;
+       text-shadow: 0px 6px 7px;
+}
+
+.p-explic{
+	font-size: 20px;
+    font-style: italic;
+    font-family: inherit;
+}
+
+.div-form{
+	width: 100%;
+    text-align: center;
+}
+
+.form-mots{
+
+}
+
+.lable-noms{
+	margin-left: -33px;
+	font-size: 16px;
+    font-weight: bold;
+    font-family: monospace;
+    color: blue;
+}
+
+.input-mots{
+	height: 18px;
+	border: solid 1px gray;
+	border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 0px;
+    padding-left: 5px;
+}    
+
+.inbut-send-button{
+	height: 22px;
+	border: solid 1px gray;
+	border-radius: 2px 2px 2px 2px;
+	color: blue;
+}
+
+.span-important{
+	text-align: left;
+    margin-left: 693px;
+    font-size: 12px;
+    font-style: oblique;
+    color: crimson;
+}
+
+.span-important1{
+	color: red;
+}
+
+.div-results{
+	width: 60%;
+	height: 100px;
+	margin-right: 300px;
+	margin-left: 300px;
+	padding-top: 6px;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.result-comment{
+	text-align: center;
+	margin-top: -45px;
+}
+
+.span-red{
+	color: red;
+    font-size: 14px;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.span-black{
+	color: black;
+    font-size: 12px;
+    font-family: monospace;
+   
+}
+
+.span-mots-red{
+	color: red;
+	font-size: 20px;
+}
+
+.span-mots-green{
+	color: green;
+	font-size: 20px;
+}
+
+.div-footer{
+	text-align: center;
+}
+
+@media only screen and (max-width: 400px), (max-device-width: 400px) {
+
+	.div-results {
+    width: 98%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 6px;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.div-footer{
+	text-align: center;
+}
